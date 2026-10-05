@@ -1,8 +1,8 @@
 # Tienda Palmira – Carrito de compras (React)
 
-- **Aprendiz:** Fernando Belalcazar
-- **Ficha:** 3409924
-- **Repositorio:** Belalcazar_Fernando_CarritoReact
+- **Aprendiz:** _tu nombre completo_
+- **Ficha:** _número de ficha_
+- **Repositorio:** _enlace público de GitHub/GitLab_
 - **Tecnología:** React 19 + Vite (sin librerías adicionales para el carrito)
 
 ## Instalar y ejecutar

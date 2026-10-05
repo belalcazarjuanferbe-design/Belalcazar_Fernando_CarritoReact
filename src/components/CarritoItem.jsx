@@ -1,4 +1,5 @@
 import CantidadInput from './CantidadInput'
+import { IMAGENES } from '../data/imagenes'
 import { formatearCOP } from '../utils/formato'
 
 export default function CarritoItem({ linea, carrito }) {
@@ -6,8 +7,11 @@ export default function CarritoItem({ linea, carrito }) {
   return (
     <li className="item">
       <div className="item__info">
-        <p className="item__nombre">{nombre}</p>
-        <p className="item__unitario">{formatearCOP(precio)} c/u</p>
+        <img className="item__img" src={IMAGENES[id]} alt="" />
+        <div>
+          <p className="item__nombre">{nombre}</p>
+          <p className="item__unitario">{formatearCOP(precio)} c/u</p>
+        </div>
       </div>
       <div className="item__controles">
         <button type="button" className="boton boton--icono" aria-label={`Restar una unidad de ${nombre}`}
