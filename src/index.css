@@ -1,0 +1,24 @@
+:root {
+  --fondo: #edf2e8;
+  --superficie: #ffffff;
+  --tinta: #1b261d;
+  --tinta-suave: #54635a;
+  --verde: #1f5a3a;
+  --verde-oscuro: #143d27;
+  --mango: #f0b429;
+  --linea: #d2dccb;
+  --peligro: #a4262c;
+  --fuente-titulo: 'Fraunces', Georgia, serif;
+  --fuente: 'Source Sans 3', system-ui, sans-serif;
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--tinta); font: 1rem/1.5 var(--fuente); }
+h1, h2, p { margin: 0; }
+button, input { font: inherit; }
+:focus-visible { outline: 3px solid var(--mango); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
